@@ -1,0 +1,48 @@
+
+.top {
+  padding: 5px 0;
+  background: #f8f9fa;
+  margin-bottom: 30px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+
+    li {
+      margin: 0 0.5rem;
+      display: inline-block;
+      font-size: 0.875rem;
+      font-weight: 300;
+      color: rgba(35, 61, 76, 0.8);
+
+
+      .icon {
+        width: 12px;
+        margin-right: 8px;
+        float: left;
+        margin-top: 2px;
+        opacity: .5;
+      }
+
+      a {
+        color: rgba(35, 61, 76, 0.8);
+        padding-bottom: 5px;
+        text-decoration: none;
+
+        &.active {
+          border-bottom: 2px solid #ffcd00;
+        }
+
+        &:hover {
+          color: rgba(35, 61, 76, 0.8);
+        }
+      }
+
+      &:last-child {
+        font-weight: 600;
+      }
+    }
+  }
+}
